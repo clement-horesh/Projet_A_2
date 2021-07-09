@@ -1,0 +1,40 @@
+*{
+    
+    font-family: Helvetica, Arial, sans-serif
+}
+body{
+    background: rgb(247,247,247);
+}
+.myButton {
+	background-color:transparent;
+	border-radius:28px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:black;
+    color: white;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+#Layer_1{
+    width: 50px;
+}
+
+#center{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
