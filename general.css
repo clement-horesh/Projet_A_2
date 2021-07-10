@@ -1,6 +1,14 @@
 *{
-    
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif
+}
+h1{
+	margin-bottom: 15px;
+}
+h2{
+	margin-bottom: 10px;
 }
 body{
     background: rgb(247,247,247);
@@ -14,7 +22,7 @@ body{
 	color:#000000;
 	font-family:Arial;
 	font-size:17px;
-	padding:16px 31px;
+	padding:10px 20px;
 	text-decoration:none;
 }
 .myButton:hover {
@@ -26,15 +34,62 @@ body{
 	top:1px;
 }
 
-#Layer_1{
+.svgdiv{
     width: 50px;
+	margin-bottom: 30px;
+}
+.svgdiv:hover{
+	cursor: pointer;
 }
 
-#center{
+.center{
     width: fit-content;
     height: fit-content;
-    margin: 0 auto;
     background: white;
     padding: 30px;
     border-radius: 10px;
+}
+#center1{
+	margin: 0 auto;
+	width: 1000px;
+	max-width: fit-content;
+	height: fit-content;
+	margin-top: 50px;
+	padding: 30px;
+}
+
+.liste{
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+a{
+	margin-left: 150px;
+	cursor: pointer;
+}
+.linkinsta{
+	margin-left: 0px;
+	color: blue;
+}
+#inst{
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.ligne{
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: row;
+	margin-left: -10px;
+	margin-bottom: 30px;
 }
