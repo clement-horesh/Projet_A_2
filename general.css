@@ -51,8 +51,7 @@ body{
 }
 #center1{
 	margin: 0 auto;
-	width: 1000px;
-	max-width: fit-content;
+	max-width: 700px;
 	height: fit-content;
 	margin-top: 50px;
 	padding: 30px;
@@ -67,6 +66,7 @@ body{
 	justify-content: space-between;
 	border-radius: 10px;
 	margin-bottom: 15px;
+	width: 100%;
 }
 a{
 	margin-left: 150px;
