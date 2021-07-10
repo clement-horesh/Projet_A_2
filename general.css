@@ -49,6 +49,7 @@ body{
     background: white;
     padding: 30px;
     border-radius: 10px;
+
 }
 #center1{
 	margin: 0 auto;
@@ -56,6 +57,16 @@ body{
 	height: fit-content;
 	margin-top: 50px;
 	padding: 30px;
+	background: blue;
+
+}
+#center2{
+	margin: 0 auto;
+	width: fit-content;
+	height: fit-content;
+	margin-top: 50px;
+	padding: 30px;
+	background: blue;
 }
 
 .liste{
@@ -77,22 +88,28 @@ a{
 	margin-left: 0px;
 	color: blue;
 }
-#inst{
+#inst1{
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10px;
+}
+#inst2{
 	width: 150px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	margin-left: 10px;
-	margin-right: 10px;
 }
 .ligne{
 	width: fit-content;
 	height: fit-content;
 	display: flex;
 	flex-direction: row;
-	margin-left: -10px;
-	margin-bottom: 30px;
+	margin: 15px auto;
 }
 
 @media screen and (max-width: 734px) {
