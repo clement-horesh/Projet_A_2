@@ -49,7 +49,10 @@ body{
     background: white;
     padding: 30px;
     border-radius: 10px;
-	
+	margin-bottom: 0px;
+}
+#marginbB{
+	margin-bottom: 30px;
 }
 #center1{
 	margin: 0 auto;
@@ -58,6 +61,10 @@ body{
 	margin-top: 50px;
 	padding: 30px;
 
+}
+#Layer_2{
+	height: 100px;
+	margin-bottom: 30px;
 }
 #center2{
 	margin: 0 auto;
