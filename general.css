@@ -66,6 +66,10 @@ body{
 	height: 100px;
 	margin-bottom: 30px;
 }
+h3{
+	margin: 0 auto;
+	font-size: 100px;
+}
 #center2{
 	margin: 0 auto;
 	max-width: 450px;
